@@ -2,16 +2,14 @@
 
 Running Instructions:
 ------------------
-step 1. Install docker on your machine
-https://www.thegeekdiary.com/how-to-install-docker-on-mac/
-step 2. Download the code and extract the code.
-step 3. Open the command line shell
-step 4. cd to the project directory
-$ ls
-Dockerfile  db.sqlite3  docker-compose.yml  instructions.txt  manage.py  pokemonrest  requirements.txt
-step 5. docker-compose up
-Wait until you see 'Watching for file changes with StatReloader' message in your console.
-step 6. open browser and run http://localhost:8000/pokemon/charizard/
+1. Install docker on your machine
+>>https://www.thegeekdiary.com/how-to-install-docker-on-mac/
+2. Download the code and extract the code.
+3. Open the command line shell
+4. cd to the project directory
+5. docker-compose up
+>> Wait until you see 'Watching for file changes with StatReloader' message in your console.
+6. open browser and run http://localhost:8000/pokemon/charizard/
 
 Solution Approach:
 ------------------
