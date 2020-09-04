@@ -1,7 +1,7 @@
 # pokemonAPI
 
-Running Instructions
-
+Running Instructions:
+------------------
 step 1. Install docker on your machine
 https://www.thegeekdiary.com/how-to-install-docker-on-mac/
 step 2. Download the code and extract the code.
