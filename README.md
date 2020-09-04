@@ -4,7 +4,7 @@ Running Instructions:
 ------------------
 1. Install docker on your machine
 > https://www.thegeekdiary.com/how-to-install-docker-on-mac/
-2. Download the code and extract the code.
+2. Download the code and extract the code - ensure to also extract the requiredFiles folder.
 3. Open the command line shell
 4. cd to the project directory
 5. Type command: docker-compose up
