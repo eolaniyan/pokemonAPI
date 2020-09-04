@@ -31,11 +31,11 @@ You can find the commands of how to setup the application in instructions.txt fi
 
 Data Access Flow:
 -----------------
-When user enters the url(http://localhost:8000/pokemon/charizard/) and hits enter, following is the flow that happens
-Step1: It goes to urls.py in pokemonrest/urls.py
-Step2: The url is pointed to function pokemon_api in views.py
-Step3: We take the name(charizard) from the url and call pokeapi url the https://pokeapi.co/api/v2/pokemon/<id or name>/
-Step4: We get the json response from the API loop over the abilities json array.
-Step5: Call each URL from the json array and create description string.
-Step6: Return JSON data with 200 OK status code in the following format
+When user enters the url(http://localhost:8000/pokemon/charizard/) and hits enter, the flow is as follows:
+1. It goes to urls.py in pokemonrest/urls.py
+2. The url is pointed to function pokemon_api in views.py
+3. We take the name(charizard) from the url and call pokeapi url the https://pokeapi.co/api/v2/pokemon/<id or name>/
+4. We get the json response from the API loop over the abilities json array.
+5. Call each URL from the json array and create description string.
+6. Return JSON data with 200 OK status code in the following format
 {'name': <name>, 'description': <description formed from step6>}
