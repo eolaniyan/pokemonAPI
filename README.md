@@ -7,9 +7,9 @@ Running Instructions:
 2. Download the code and extract the code.
 3. Open the command line shell
 4. cd to the project directory
-5. docker-compose up
+5. Type command: docker-compose up
 > Wait until you see 'Watching for file changes with StatReloader' message in your console.
-6. open browser and run http://localhost:8000/pokemon/charizard/
+6. Open browser and run http://localhost:8000/pokemon/charizard/
 
 Solution Approach:
 ------------------
